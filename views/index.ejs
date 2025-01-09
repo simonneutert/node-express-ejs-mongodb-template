@@ -1,0 +1,18 @@
+<p>/</p>
+<hr>
+<h1>for loop in template</h1>
+<div>
+  <% for (let details of data.map( (entry)=> {return {cuisine: entry.cuisine, name: entry.name}})) { %>
+    <div>
+      <p>
+        <strong>
+          <%= details.name %>
+        </strong>
+      </p>
+      <p>
+        <%= details.cuisine %>
+      </p>
+      <hr>
+    </div>
+    <% } %>
+</div>

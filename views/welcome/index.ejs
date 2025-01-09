@@ -1,0 +1,18 @@
+<p>/welcome</p>
+<hr>
+<h1>for loop with reduce in controller</h1>
+<div>
+  <% for (let restaurant of restaurants) { %>
+    <div>
+      <p>
+        <strong>
+          <%= restaurant.name %>
+        </strong> (Grade: <%= restaurant.averageGrade %>)
+      </p>
+      <p>
+        <%= restaurant.cuisine %>
+      </p>
+      <hr>
+    </div>
+    <% } %>
+</div>

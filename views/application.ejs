@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="<%= configuration.html.lang %>" dir="<%= configuration.html.dir %>">
+<%- include('shared/header') -%>
+
+  <body>
+    <%- include('shared/nav') -%>
+      <div class="container my-4" style="min-height: 80vh">
+        <%- yield(file, locals) -%>
+      </div>
+      <%- include('shared/footer') -%>
+  </body>
+
+</html>
