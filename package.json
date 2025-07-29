@@ -10,7 +10,7 @@
   "author": "Simon Neutert",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.4.7",
+    "dotenv": "^17.2.1",
     "ejs": "^3.1.10",
     "express": "^4.21.1",
     "mongodb": "^6.12.0"
