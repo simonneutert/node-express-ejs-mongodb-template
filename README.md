@@ -17,6 +17,13 @@ Copy the `.env.sample` file to `.env` and fill in the values.
 You can find your credentials in the MongoDB dashboard of your cloud
 database/account.
 
+## Adapt the database to your needs
+
+In my case, I used the demo database `sample_restaurants` and the collection `restaurants`. It was what mongoDB provided as a demo database, so I used it.
+
+It may be different for you, so you can adapt the database and collection names in the `./database/connection.js` file.  
+And of course, in every other place here in this template repo. This will be a good exercise to get familiar with the code structure.
+
 ## Start it up
 
 1. `$ npm install`
